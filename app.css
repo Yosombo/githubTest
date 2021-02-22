@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: rgb(214, 223, 235);
+}
+#container {
+  background: rgb(68, 49, 65);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  margin-top: 2rem;
+  width: 500px;
+  border: 1px pink solid;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 20px 20px 0px 0px;
+}
+.header h1 {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px pink dotted;
+}
+form {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+form input {
+  background: rgb(68, 49, 65);
+  border: 1px pink solid;
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 5px;
+}
+form input:hover {
+  background: rgb(100, 71, 96);
+}
+form button {
+  background: rgb(68, 49, 65);
+  border: 1px pink solid;
+  padding: 0.5rem;
+  color: pink;
+  border-radius: 5px;
+}
+form button:hover {
+  background: rgb(100, 71, 96);
+}
+
+ul {
+  width: 500px;
+  border: 1px pink solid;
+  padding: 1rem 2rem;
+  border-radius: 0px 0px 20px 20px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px pink dotted;
+  margin-bottom: 1rem;
+  padding-bottom: 5px;
+}
+li button {
+  height: 30px;
+  line-height: 0;
+  margin-left: 0.8rem;
+  background: rgb(68, 49, 65);
+  border: 1px pink solid;
+  padding: 0.5rem;
+  color: pink;
+  border-radius: 5px;
+  background: rgb(77, 53, 73);
+}
+li button:hover {
+  background: rgb(100, 71, 96);
+}
