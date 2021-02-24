@@ -7,7 +7,7 @@
   color: rgb(214, 223, 235);
 }
 #container {
-  background: teal;
+  background: olive;
 
   width: 100vw;
   height: 100vh;
@@ -29,7 +29,7 @@
   margin-bottom: 1rem;
   border-bottom: 1px pink dotted;
 
-  color: pink;
+  color: black;
 
   font-size: 4rem;
 }
